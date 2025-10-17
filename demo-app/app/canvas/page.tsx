@@ -34,6 +34,14 @@ import { BlogListAlternating } from '@/components/sections/canvas/blog-list-alte
 import { BlogListLargeImages } from '@/components/sections/canvas/blog-list-large-images'
 import { BlogListImageRight } from '@/components/sections/canvas/blog-list-image-right'
 import { BlogGridThreeColumn } from '@/components/sections/canvas/blog-grid-three-column'
+import { GallerySplitTextLeft } from '@/components/sections/canvas/gallery-split-text-left'
+import { GallerySplitTextRight } from '@/components/sections/canvas/gallery-split-text-right'
+import { GalleryAsymmetricThree } from '@/components/sections/canvas/gallery-asymmetric-three'
+import { GallerySplitLargeSmall } from '@/components/sections/canvas/gallery-split-large-small'
+import { GallerySidebarLeft } from '@/components/sections/canvas/gallery-sidebar-left'
+import { GallerySidebarRight } from '@/components/sections/canvas/gallery-sidebar-right'
+import { GalleryMasonryFive } from '@/components/sections/canvas/gallery-masonry-five'
+import { GalleryFeaturedGrid } from '@/components/sections/canvas/gallery-featured-grid'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -767,11 +775,114 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
             <BlogGridThreeColumn />
           </div>
 
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 26: gallery-1 */}
+          <div id="gallery" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-1</h2>
+            </div>
+
+            {/* The Component */}
+            <GallerySplitTextLeft />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 27: gallery-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-2</h2>
+            </div>
+
+            {/* The Component */}
+            <GallerySplitTextRight />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 28: gallery-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-3</h2>
+            </div>
+
+            {/* The Component */}
+            <GalleryAsymmetricThree />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 29: gallery-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-4</h2>
+            </div>
+
+            {/* The Component */}
+            <GallerySplitLargeSmall />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 30: gallery-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-5</h2>
+            </div>
+
+            {/* The Component */}
+            <GallerySidebarLeft />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 31: gallery-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-6</h2>
+            </div>
+
+            {/* The Component */}
+            <GallerySidebarRight />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 32: gallery-7 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-7</h2>
+            </div>
+
+            {/* The Component */}
+            <GalleryMasonryFive />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 33: gallery-8 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">gallery-8</h2>
+            </div>
+
+            {/* The Component */}
+            <GalleryFeaturedGrid />
+          </div>
+
           {/*
             FUTURE SECTIONS - Add with these IDs and scroll offset for sticky navigation:
-            Example: <div id="gallery" className="scroll-mt-[5.5rem]">
+            Example: <div id="cta" className="scroll-mt-[5.5rem]">
 
-            - id="gallery" className="scroll-mt-[5.5rem]" for gallery-1
             - id="cta" className="scroll-mt-[5.5rem]" for cta-1
             - id="quotes" className="scroll-mt-[5.5rem]" for quotes-1
             - id="signup" className="scroll-mt-[5.5rem]" for signup-1
