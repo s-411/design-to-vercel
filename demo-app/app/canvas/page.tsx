@@ -4,6 +4,15 @@ import * as React from 'react'
 import Link from 'next/link'
 import { ThemeToggle } from '@/design-system/lib/theme-toggle'
 import { ArrowLeft } from 'lucide-react'
+import { HeaderSimple } from '@/components/sections/canvas/header-simple'
+import { HeaderWithButton } from '@/components/sections/canvas/header-with-button'
+import { HeaderCenteredButton } from '@/components/sections/canvas/header-centered-button'
+import { HeaderNavigation } from '@/components/sections/canvas/header-navigation'
+import { HeaderNavWithButton } from '@/components/sections/canvas/header-nav-with-button'
+import { HeaderNavWithSocial } from '@/components/sections/canvas/header-nav-with-social'
+import { HeaderCenteredNav } from '@/components/sections/canvas/header-centered-nav'
+import { HeaderSocialNavButton } from '@/components/sections/canvas/header-social-nav-button'
+import { HeaderFullFeatured } from '@/components/sections/canvas/header-full-featured'
 import { TextImageSplit } from '@/components/sections/canvas/text-image-split'
 import { TextImageSplitWithTagline } from '@/components/sections/canvas/text-image-split-with-tagline'
 import { HeroCenteredWithMockup } from '@/components/sections/canvas/hero-centered-with-mockup'
@@ -13,6 +22,13 @@ import { ContentSplitDivided } from '@/components/sections/canvas/content-split-
 import { ContentTwoColumnCard } from '@/components/sections/canvas/content-two-column-card'
 import { ContentWithImages } from '@/components/sections/canvas/content-with-images'
 import { ContentImageAbove } from '@/components/sections/canvas/content-image-above'
+import { FeaturesThreeColumnButtons } from '@/components/sections/canvas/features-three-column-buttons'
+import { FeaturesThreeColumnLinks } from '@/components/sections/canvas/features-three-column-links'
+import { FeaturesFourGrid } from '@/components/sections/canvas/features-four-grid'
+import { FeaturesSplitWithList } from '@/components/sections/canvas/features-split-with-list'
+import { FeaturesThreeCardsFeatured } from '@/components/sections/canvas/features-three-cards-featured'
+import { FeaturesSixGridWithHeader } from '@/components/sections/canvas/features-six-grid-with-header'
+import { FeaturesSplitImageList } from '@/components/sections/canvas/features-split-image-list'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -64,6 +80,105 @@ export default function CanvasPage() {
       {/* Layout Demo Section */}
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="space-y-12">
+
+          {/* Demo 1: header-1 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-1</h2>
+            </div>
+            <HeaderSimple logo="canvas" onMenuClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 2: header-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-2</h2>
+            </div>
+            <HeaderWithButton logo="canvas" buttonText="CLICK HERE" onButtonClick={handleButtonClick} onMenuClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 3: header-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-3</h2>
+            </div>
+            <HeaderCenteredButton logo="canvas" buttonText="CLICK HERE" onButtonClick={handleButtonClick} onMenuClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 4: header-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-4</h2>
+            </div>
+            <HeaderNavigation logo="canvas" />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 5: header-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-5</h2>
+            </div>
+            <HeaderNavWithButton logo="canvas" buttonText="CLICK HERE" onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 6: header-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-6</h2>
+            </div>
+            <HeaderNavWithSocial logo="canvas" />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 7: header-7 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-7</h2>
+            </div>
+            <HeaderCenteredNav logo="canvas" />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 8: header-8 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-8</h2>
+            </div>
+            <HeaderSocialNavButton logo="canvas" buttonText="CLICK HERE" onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 9: header-9 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">header-9</h2>
+            </div>
+            <HeaderFullFeatured logo="canvas" buttonText="CLICK HERE" onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
 
           {/* Demo 1: hero-1 */}
           <div>
@@ -337,6 +452,264 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
 
 Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the allpowerful create sample link occupied had focus could because nor showed set who rush out indication stopped they analyzed case that I times, one overcome first phase wasn't of the sofa writing but any the to the in partiality the with go of people clearly, of where be devious with hard the founding by or the beacon due decisions, pattern. To her tone didn't to the drops. Counter. Sitting for that of you star position."
               linkText="sample link"
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 14: features-1 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-1</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesThreeColumnButtons
+              features={[
+                {
+                  heading: 'PERFECTLY ALIGNED',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.',
+                  buttonText: 'CLICK HERE',
+                  onButtonClick: handleButtonClick,
+                },
+                {
+                  heading: 'SHORT HEADING',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text.',
+                  buttonText: 'CLICK HERE',
+                  onButtonClick: handleButtonClick,
+                },
+                {
+                  heading: 'SHORT HEADING',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect.',
+                  buttonText: 'CLICK HERE',
+                  onButtonClick: handleButtonClick,
+                },
+              ]}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 15: features-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-2</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesThreeColumnLinks
+              features={[
+                {
+                  heading: 'PERFECTLY ALIGNED',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'SHORT HEADING',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'SHORT HEADING',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+              ]}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 16: features-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-3</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesFourGrid
+              features={[
+                {
+                  heading: 'Perfectly Aligned',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.',
+                },
+                {
+                  heading: 'Perfectly Aligned',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style.',
+                },
+                {
+                  heading: 'Perfectly Aligned',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings.',
+                },
+                {
+                  heading: 'Perfectly Aligned',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.',
+                },
+              ]}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 17: features-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-4</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesSplitWithList
+              heading="Heading to introduce the features"
+              bodyCopy="Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings."
+              buttonText="LEARN MORE"
+              onButtonClick={handleButtonClick}
+              features={[
+                {
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings.',
+                },
+                {
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.',
+                },
+                {
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content.',
+                },
+              ]}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 18: features-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-5</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesThreeCardsFeatured
+              features={[
+                {
+                  heading: 'Your content goes here',
+                  bodyCopy: 'Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                  isFeatured: false,
+                },
+                {
+                  heading: 'Your content goes here',
+                  bodyCopy: 'Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                  isFeatured: false,
+                },
+                {
+                  heading: 'Featured content',
+                  bodyCopy: 'Edit or remove this text inline or in the module Content settings. You can also style every aspect of this content in the module Design settings and even apply custom CSS to this.',
+                  buttonText: 'CLICK HERE',
+                  onButtonClick: handleButtonClick,
+                  isFeatured: true,
+                },
+              ]}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 19: features-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-6</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesSixGridWithHeader
+              tagline="Short Catchy Tagline"
+              heading="Heading Introducing Features"
+              features={[
+                {
+                  heading: 'Logo and Branding',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'Web Design and Development',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'Social Media and Online Marketing',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'Search Engine Optimization',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'Copywriting',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: '1-on-1 Trainings and Support',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+              ]}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 20: features-7 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">features-7</h2>
+            </div>
+
+            {/* The Component */}
+            <FeaturesSplitImageList
+              tagline="Short Catchy Tagline"
+              heading="Heading Introducing Features"
+              buttonText="CLICK HERE"
+              onButtonClick={handleButtonClick}
+              features={[
+                {
+                  heading: 'Short sample heading',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings. You can also style every aspect.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'Short sample heading',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings. You can also style every aspect of this content in the module Design settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+                {
+                  heading: 'Short sample heading',
+                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
+                  linkText: 'Learn more',
+                  onLinkClick: handleButtonClick,
+                },
+              ]}
             />
           </div>
 
