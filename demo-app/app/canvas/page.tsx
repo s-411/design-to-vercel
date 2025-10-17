@@ -49,6 +49,11 @@ import { CtaCenteredBordered } from '@/components/sections/canvas/cta-centered-b
 import { CtaHorizontalDivider } from '@/components/sections/canvas/cta-horizontal-divider'
 import { CtaSplitImageLeft } from '@/components/sections/canvas/cta-split-image-left'
 import { CtaSplitImageRight } from '@/components/sections/canvas/cta-split-image-right'
+import { QuoteSimpleLeft } from '@/components/sections/canvas/quote-simple-left'
+import { QuoteSplitImageLeft } from '@/components/sections/canvas/quote-split-image-left'
+import { QuoteCardOverlay } from '@/components/sections/canvas/quote-card-overlay'
+import { QuoteSplitImageRight } from '@/components/sections/canvas/quote-split-image-right'
+import { QuoteCenteredAvatar } from '@/components/sections/canvas/quote-centered-avatar'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -975,6 +980,71 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
 
             {/* The Component */}
             <CtaSplitImageRight onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 41: quote-1 */}
+          <div id="quotes" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">quote-1</h2>
+            </div>
+
+            {/* The Component */}
+            <QuoteSimpleLeft />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 42: quote-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">quote-2</h2>
+            </div>
+
+            {/* The Component */}
+            <QuoteSplitImageLeft />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 43: quote-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">quote-3</h2>
+            </div>
+
+            {/* The Component */}
+            <QuoteCardOverlay />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 44: quote-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">quote-4</h2>
+            </div>
+
+            {/* The Component */}
+            <QuoteSplitImageRight />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 45: quote-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">quote-5</h2>
+            </div>
+
+            {/* The Component */}
+            <QuoteCenteredAvatar />
           </div>
 
           {/*
