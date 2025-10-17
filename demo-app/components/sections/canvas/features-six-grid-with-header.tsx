@@ -46,37 +46,37 @@ export function FeaturesSixGridWithHeader({
   heading = 'Heading Introducing Features',
   features = [
     {
-      icon: <Palette className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />,
+      icon: <Palette className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />,
       heading: 'Logo and Branding',
       bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
       linkText: 'Learn more',
     },
     {
-      icon: <Monitor className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />,
+      icon: <Monitor className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />,
       heading: 'Web Design and Development',
       bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
       linkText: 'Learn more',
     },
     {
-      icon: <Share2 className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />,
+      icon: <Share2 className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />,
       heading: 'Social Media and Online Marketing',
       bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
       linkText: 'Learn more',
     },
     {
-      icon: <Search className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />,
+      icon: <Search className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />,
       heading: 'Search Engine Optimization',
       bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
       linkText: 'Learn more',
     },
     {
-      icon: <Pencil className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />,
+      icon: <Pencil className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />,
       heading: 'Copywriting',
       bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
       linkText: 'Learn more',
     },
     {
-      icon: <MessageSquare className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />,
+      icon: <MessageSquare className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />,
       heading: '1-on-1 Trainings and Support',
       bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
       linkText: 'Learn more',

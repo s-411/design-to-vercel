@@ -3,7 +3,7 @@
 import * as React from 'react'
 import Link from 'next/link'
 import { ThemeToggle } from '@/design-system/lib/theme-toggle'
-import { ArrowLeft } from 'lucide-react'
+import { ArrowLeft, Palette, Monitor, Share2, Search, Pencil, MessageSquare, Sparkles } from 'lucide-react'
 import { HeaderSimple } from '@/components/sections/canvas/header-simple'
 import { HeaderWithButton } from '@/components/sections/canvas/header-with-button'
 import { HeaderCenteredButton } from '@/components/sections/canvas/header-centered-button'
@@ -77,12 +77,34 @@ export default function CanvasPage() {
         <div className="border-t border-border"></div>
       </div>
 
+      {/* Sticky Navigation Menu */}
+      <div className="sticky top-0 z-40 bg-background/95 backdrop-blur border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <nav className="flex flex-wrap gap-4 text-sm">
+            <a href="#header" className="text-muted-foreground hover:text-primary transition-colors">Header</a>
+            <a href="#hero" className="text-muted-foreground hover:text-primary transition-colors">Hero</a>
+            <a href="#content" className="text-muted-foreground hover:text-primary transition-colors">Content</a>
+            <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">Features</a>
+            <a href="#blog" className="text-muted-foreground hover:text-primary transition-colors">Blog</a>
+            <a href="#gallery" className="text-muted-foreground hover:text-primary transition-colors">Gallery</a>
+            <a href="#cta" className="text-muted-foreground hover:text-primary transition-colors">CTA</a>
+            <a href="#quotes" className="text-muted-foreground hover:text-primary transition-colors">Quotes</a>
+            <a href="#signup" className="text-muted-foreground hover:text-primary transition-colors">Sign Up</a>
+            <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</a>
+            <a href="#faq" className="text-muted-foreground hover:text-primary transition-colors">FAQ</a>
+            <a href="#footers" className="text-muted-foreground hover:text-primary transition-colors">Footers</a>
+            <a href="#number" className="text-muted-foreground hover:text-primary transition-colors">Number</a>
+            <a href="#pricing" className="text-muted-foreground hover:text-primary transition-colors">Pricing</a>
+          </nav>
+        </div>
+      </div>
+
       {/* Layout Demo Section */}
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="space-y-12">
 
           {/* Demo 1: header-1 */}
-          <div>
+          <div id="header" className="scroll-mt-[5.5rem]">
             <div className="mb-6">
               <h2 className="text-2xl font-heading mb-2">header-1</h2>
             </div>
@@ -181,7 +203,7 @@ export default function CanvasPage() {
           <div className="border-t border-border"></div>
 
           {/* Demo 1: hero-1 */}
-          <div>
+          <div id="hero" className="scroll-mt-[5.5rem]">
             <div className="mb-6">
               <h2 className="text-2xl font-heading mb-2">hero-1</h2>
             </div>
@@ -310,7 +332,7 @@ export default function CanvasPage() {
           <div className="border-t border-border"></div>
 
           {/* Demo 7: content-1 */}
-          <div>
+          <div id="content" className="scroll-mt-[5.5rem]">
             <div className="mb-6">
               <h2 className="text-2xl font-heading mb-2">content-1</h2>
             </div>
@@ -459,7 +481,7 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
           <div className="border-t border-border"></div>
 
           {/* Demo 14: features-1 */}
-          <div>
+          <div id="features" className="scroll-mt-[5.5rem]">
             <div className="mb-6">
               <h2 className="text-2xl font-heading mb-2">features-1</h2>
             </div>
@@ -634,44 +656,6 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
             <FeaturesSixGridWithHeader
               tagline="Short Catchy Tagline"
               heading="Heading Introducing Features"
-              features={[
-                {
-                  heading: 'Logo and Branding',
-                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
-                  linkText: 'Learn more',
-                  onLinkClick: handleButtonClick,
-                },
-                {
-                  heading: 'Web Design and Development',
-                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
-                  linkText: 'Learn more',
-                  onLinkClick: handleButtonClick,
-                },
-                {
-                  heading: 'Social Media and Online Marketing',
-                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
-                  linkText: 'Learn more',
-                  onLinkClick: handleButtonClick,
-                },
-                {
-                  heading: 'Search Engine Optimization',
-                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
-                  linkText: 'Learn more',
-                  onLinkClick: handleButtonClick,
-                },
-                {
-                  heading: 'Copywriting',
-                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
-                  linkText: 'Learn more',
-                  onLinkClick: handleButtonClick,
-                },
-                {
-                  heading: '1-on-1 Trainings and Support',
-                  bodyCopy: 'Your content goes here. Edit or remove this text inline or in the module settings.',
-                  linkText: 'Learn more',
-                  onLinkClick: handleButtonClick,
-                },
-              ]}
             />
           </div>
 
@@ -712,6 +696,24 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
               ]}
             />
           </div>
+
+          {/*
+            FUTURE SECTIONS - Add with these IDs and scroll offset for sticky navigation:
+            Example: <div id="blog" className="scroll-mt-[5.5rem]">
+
+            - id="blog" className="scroll-mt-[5.5rem]" for blog-1
+            - id="gallery" className="scroll-mt-[5.5rem]" for gallery-1
+            - id="cta" className="scroll-mt-[5.5rem]" for cta-1
+            - id="quotes" className="scroll-mt-[5.5rem]" for quotes-1
+            - id="signup" className="scroll-mt-[5.5rem]" for signup-1
+            - id="contact" className="scroll-mt-[5.5rem]" for contact-1
+            - id="faq" className="scroll-mt-[5.5rem]" for faq-1
+            - id="footers" className="scroll-mt-[5.5rem]" for footer-1
+            - id="number" className="scroll-mt-[5.5rem]" for number-1
+            - id="pricing" className="scroll-mt-[5.5rem]" for pricing-1
+
+            The scroll-mt-[5.5rem] adds a 5.5rem (88px) offset so the section title is visible below the sticky menu.
+          */}
 
         </div>
       </div>

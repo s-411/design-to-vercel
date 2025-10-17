@@ -59,9 +59,9 @@ export function FeaturesFourGrid({
           {features.map((feature, index) => (
             <div key={index} className="flex gap-6 items-start">
               {/* Icon */}
-              <div className="flex-shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-full bg-muted/50 dark:bg-muted/30 flex items-center justify-center">
+              <div className="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-muted/50 dark:bg-muted/30 flex items-center justify-center">
                 {feature.icon || (
-                  <Sparkles className="w-10 h-10 md:w-12 md:h-12 text-primary" strokeWidth={2} />
+                  <Sparkles className="w-7 h-7 md:w-9 md:h-9 text-primary" strokeWidth={2} />
                 )}
               </div>
 

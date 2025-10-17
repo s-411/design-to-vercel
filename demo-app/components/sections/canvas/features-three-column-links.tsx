@@ -62,10 +62,10 @@ export function FeaturesThreeColumnLinks({
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col items-center text-center space-y-6">
-              {/* Icon - Larger size */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-muted/50 dark:bg-muted/30 flex items-center justify-center">
+              {/* Icon */}
+              <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-muted/50 dark:bg-muted/30 flex items-center justify-center">
                 {feature.icon || (
-                  <Sparkles className="w-14 h-14 md:w-16 md:h-16 text-primary" strokeWidth={2} />
+                  <Sparkles className="w-9 h-9 md:w-11 md:h-11 text-primary" strokeWidth={2} />
                 )}
               </div>
 

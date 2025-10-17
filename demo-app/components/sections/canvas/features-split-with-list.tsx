@@ -85,9 +85,9 @@ export function FeaturesSplitWithList({
             {features.map((feature, index) => (
               <div key={index} className="flex gap-4 items-start">
                 {/* Icon */}
-                <div className="flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-muted/50 dark:bg-muted/30 flex items-center justify-center">
+                <div className="flex-shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-muted/50 dark:bg-muted/30 flex items-center justify-center">
                   {feature.icon || (
-                    <Sparkles className="w-8 h-8 md:w-10 md:h-10 text-primary" strokeWidth={2} />
+                    <Sparkles className="w-6 h-6 md:w-7 md:h-7 text-primary" strokeWidth={2} />
                   )}
                 </div>
 
