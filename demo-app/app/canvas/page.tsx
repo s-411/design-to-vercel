@@ -54,6 +54,12 @@ import { QuoteSplitImageLeft } from '@/components/sections/canvas/quote-split-im
 import { QuoteCardOverlay } from '@/components/sections/canvas/quote-card-overlay'
 import { QuoteSplitImageRight } from '@/components/sections/canvas/quote-split-image-right'
 import { QuoteCenteredAvatar } from '@/components/sections/canvas/quote-centered-avatar'
+import { SignupCenteredForm } from '@/components/sections/canvas/signup-centered-form'
+import { SignupSplitImageLeft } from '@/components/sections/canvas/signup-split-image-left'
+import { SignupHorizontalForm } from '@/components/sections/canvas/signup-horizontal-form'
+import { SignupHorizontalWithImage } from '@/components/sections/canvas/signup-horizontal-with-image'
+import { SignupHorizontalMinimal } from '@/components/sections/canvas/signup-horizontal-minimal'
+import { SignupSplitEmailOnly } from '@/components/sections/canvas/signup-split-email-only'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
