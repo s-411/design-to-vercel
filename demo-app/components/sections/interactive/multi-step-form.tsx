@@ -2,6 +2,7 @@
 
 import * as React from 'react'
 import { Input } from '@/components/ui/input'
+import { Checkbox } from '@/components/ui/checkbox'
 import { EnhancedCard } from '@/components/ui/enhanced-card'
 import { Progress } from '@/components/ui/progress'
 import { ChevronLeft, ChevronRight, Check, User, Briefcase, Settings } from 'lucide-react'
