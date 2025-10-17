@@ -35,35 +35,40 @@ The app will run on [http://localhost:3001](http://localhost:3001)
 
 ### Deploy to Vercel
 
-This project is configured to deploy the `demo-app` subdirectory to Vercel.
+This project deploys the `demo-app` subdirectory to Vercel.
 
-#### Option 1: Vercel CLI
+#### Option 1: Vercel Dashboard (Recommended)
+
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import this repository: `https://github.com/s-411/design-to-vercel`
+3. **Important**: Before deploying, configure the project:
+   - Click "Configure Project"
+   - Set **Root Directory** to `demo-app`
+   - Framework Preset should auto-detect as **Next.js**
+4. Click "Deploy"
+
+That's it! Vercel will build and deploy the demo-app automatically.
+
+#### Option 2: Vercel CLI
 
 ```bash
 # Install Vercel CLI (if not already installed)
 npm i -g vercel
 
+# Navigate to the demo-app directory
+cd demo-app
+
 # Deploy
 vercel
 ```
 
-#### Option 2: Vercel Dashboard
-
-1. Go to [vercel.com](https://vercel.com)
-2. Import this repository: `https://github.com/s-411/design-to-vercel`
-3. Vercel will automatically detect the Next.js framework
-4. The `vercel.json` configuration ensures the `demo-app` directory is used
-5. Click "Deploy"
-
-That's it! Vercel will handle the build and deployment automatically.
-
 ### Configuration
 
-The project includes a `vercel.json` file that configures:
-- Build command: Runs `npm run build` in the `demo-app` directory
-- Install command: Installs dependencies in `demo-app`
-- Output directory: Points to the Next.js build output
-- Framework detection: Optimized for Next.js
+When deploying via the Vercel dashboard, make sure to set:
+- **Root Directory**: `demo-app`
+- **Framework**: Next.js (auto-detected)
+- **Build Command**: `npm run build` (default)
+- **Output Directory**: `.next` (default)
 
 ## Tech Stack
 
