@@ -1053,6 +1053,84 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
             <QuoteCenteredAvatar />
           </div>
 
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 46: signup-1 */}
+          <div id="signup" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">signup-1</h2>
+            </div>
+
+            {/* The Component */}
+            <SignupCenteredForm />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 47: signup-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">signup-2</h2>
+            </div>
+
+            {/* The Component */}
+            <SignupSplitImageLeft />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 48: signup-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">signup-3</h2>
+            </div>
+
+            {/* The Component */}
+            <SignupHorizontalForm />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 49: signup-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">signup-4</h2>
+            </div>
+
+            {/* The Component */}
+            <SignupHorizontalWithImage />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 50: signup-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">signup-5</h2>
+            </div>
+
+            {/* The Component */}
+            <SignupHorizontalMinimal />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 51: signup-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">signup-6</h2>
+            </div>
+
+            {/* The Component */}
+            <SignupSplitEmailOnly />
+          </div>
+
           {/*
             FUTURE SECTIONS - Add with these IDs and scroll offset for sticky navigation:
             Example: <div id="cta" className="scroll-mt-[5.5rem]">
