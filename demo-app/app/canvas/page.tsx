@@ -42,6 +42,13 @@ import { GallerySidebarLeft } from '@/components/sections/canvas/gallery-sidebar
 import { GallerySidebarRight } from '@/components/sections/canvas/gallery-sidebar-right'
 import { GalleryMasonryFive } from '@/components/sections/canvas/gallery-masonry-five'
 import { GalleryFeaturedGrid } from '@/components/sections/canvas/gallery-featured-grid'
+import { CtaCenteredTwoButtons } from '@/components/sections/canvas/cta-centered-two-buttons'
+import { CtaCenteredButtonLink } from '@/components/sections/canvas/cta-centered-button-link'
+import { CtaHorizontalButtonRight } from '@/components/sections/canvas/cta-horizontal-button-right'
+import { CtaCenteredBordered } from '@/components/sections/canvas/cta-centered-bordered'
+import { CtaHorizontalDivider } from '@/components/sections/canvas/cta-horizontal-divider'
+import { CtaSplitImageLeft } from '@/components/sections/canvas/cta-split-image-left'
+import { CtaSplitImageRight } from '@/components/sections/canvas/cta-split-image-right'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -877,6 +884,97 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
 
             {/* The Component */}
             <GalleryFeaturedGrid />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 34: cta-1 */}
+          <div id="cta" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-1</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaCenteredTwoButtons onPrimaryClick={handleButtonClick} onSecondaryClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 35: cta-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-2</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaCenteredButtonLink onButtonClick={handleButtonClick} onLinkClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 36: cta-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-3</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaHorizontalButtonRight onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 37: cta-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-4</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaCenteredBordered onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 38: cta-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-5</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaHorizontalDivider onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 39: cta-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-6</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaSplitImageLeft onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 40: cta-7 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">cta-7</h2>
+            </div>
+
+            {/* The Component */}
+            <CtaSplitImageRight onButtonClick={handleButtonClick} />
           </div>
 
           {/*
