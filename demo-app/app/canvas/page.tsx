@@ -29,6 +29,11 @@ import { FeaturesSplitWithList } from '@/components/sections/canvas/features-spl
 import { FeaturesThreeCardsFeatured } from '@/components/sections/canvas/features-three-cards-featured'
 import { FeaturesSixGridWithHeader } from '@/components/sections/canvas/features-six-grid-with-header'
 import { FeaturesSplitImageList } from '@/components/sections/canvas/features-split-image-list'
+import { BlogListVerticalTwo } from '@/components/sections/canvas/blog-list-vertical-two'
+import { BlogListAlternating } from '@/components/sections/canvas/blog-list-alternating'
+import { BlogListLargeImages } from '@/components/sections/canvas/blog-list-large-images'
+import { BlogListImageRight } from '@/components/sections/canvas/blog-list-image-right'
+import { BlogGridThreeColumn } from '@/components/sections/canvas/blog-grid-three-column'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -697,11 +702,75 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
             />
           </div>
 
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 21: blog-1 */}
+          <div id="blog" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">blog-1</h2>
+            </div>
+
+            {/* The Component */}
+            <BlogListVerticalTwo />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 22: blog-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">blog-2</h2>
+            </div>
+
+            {/* The Component */}
+            <BlogListAlternating />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 23: blog-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">blog-3</h2>
+            </div>
+
+            {/* The Component */}
+            <BlogListLargeImages />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 24: blog-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">blog-4</h2>
+            </div>
+
+            {/* The Component */}
+            <BlogListImageRight />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 25: blog-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">blog-5</h2>
+            </div>
+
+            {/* The Component */}
+            <BlogGridThreeColumn />
+          </div>
+
           {/*
             FUTURE SECTIONS - Add with these IDs and scroll offset for sticky navigation:
-            Example: <div id="blog" className="scroll-mt-[5.5rem]">
+            Example: <div id="gallery" className="scroll-mt-[5.5rem]">
 
-            - id="blog" className="scroll-mt-[5.5rem]" for blog-1
             - id="gallery" className="scroll-mt-[5.5rem]" for gallery-1
             - id="cta" className="scroll-mt-[5.5rem]" for cta-1
             - id="quotes" className="scroll-mt-[5.5rem]" for quotes-1
