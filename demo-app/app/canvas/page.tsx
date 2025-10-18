@@ -82,6 +82,17 @@ import { Counter9 } from '@/components/sections/counter-9'
 import { Counter10 } from '@/components/sections/counter-10'
 import { Counter11 } from '@/components/sections/counter-11'
 import { Counter12 } from '@/components/sections/counter-12'
+import { PricingThreeColumnElevated } from '@/components/sections/canvas/pricing-three-column-elevated'
+import { PricingThreeColumnBordered } from '@/components/sections/canvas/pricing-three-column-bordered'
+import { PricingFourColumnDarkFeatured } from '@/components/sections/canvas/pricing-four-column-dark-featured'
+import { PricingThreeColumnIcons } from '@/components/sections/canvas/pricing-three-column-icons'
+import { PricingThreeColumnRibbon } from '@/components/sections/canvas/pricing-three-column-ribbon'
+import { PricingFourColumnGrid } from '@/components/sections/canvas/pricing-four-column-grid'
+import { PricingThreeColumnPasses } from '@/components/sections/canvas/pricing-three-column-passes'
+import { PricingProductListHorizontal } from '@/components/sections/canvas/pricing-product-list-horizontal'
+import { PricingProductListInline } from '@/components/sections/canvas/pricing-product-list-inline'
+import { PricingSplitWithCta } from '@/components/sections/canvas/pricing-split-with-cta'
+import { PricingSimpleList } from '@/components/sections/canvas/pricing-simple-list'
 import { FooterLogoSocialCopyright } from '@/components/sections/canvas/footer-logo-social-copyright'
 import { FooterCopyrightLogoLinks } from '@/components/sections/canvas/footer-copyright-logo-links'
 import { FooterLogoCopyrightSocial } from '@/components/sections/canvas/footer-logo-copyright-social'
@@ -1565,21 +1576,154 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
             <Counter12 />
           </div>
 
-          {/*
-            FUTURE SECTIONS - Add with these IDs and scroll offset for sticky navigation:
-            Example: <div id="cta" className="scroll-mt-[5.5rem]">
+          {/* Divider */}
+          <div className="border-t border-border"></div>
 
-            - id="cta" className="scroll-mt-[5.5rem]" for cta-1
-            - id="quotes" className="scroll-mt-[5.5rem]" for quotes-1
-            - id="signup" className="scroll-mt-[5.5rem]" for signup-1
-            - id="contact" className="scroll-mt-[5.5rem]" for contact-1
-            - id="faq" className="scroll-mt-[5.5rem]" for faq-1
-            - id="footers" className="scroll-mt-[5.5rem]" for footer-1
-            - id="number" className="scroll-mt-[5.5rem]" for number-1
-            - id="pricing" className="scroll-mt-[5.5rem]" for pricing-1
+          {/* Demo 83: pricing-1-light */}
+          <div id="pricing" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-1-light</h2>
+            </div>
 
-            The scroll-mt-[5.5rem] adds a 5.5rem (88px) offset so the section title is visible below the sticky menu.
-          */}
+            {/* The Component */}
+            <PricingThreeColumnElevated onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 84: pricing-2-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-2-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingThreeColumnBordered onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 85: pricing-3-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-3-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingFourColumnDarkFeatured onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 86: pricing-4-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-4-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingThreeColumnIcons onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 87: pricing-5-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-5-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingThreeColumnRibbon
+              onButtonClick={handleButtonClick}
+              onLearnMoreClick={handleButtonClick}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 88: pricing-6-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-6-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingFourColumnGrid
+              onButtonClick={handleButtonClick}
+              onLearnMoreClick={handleButtonClick}
+            />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 89: pricing-7-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-7-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingThreeColumnPasses onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 90: pricing-8-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-8-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingProductListHorizontal onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 91: pricing-9-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-9-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingProductListInline onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 92: pricing-10-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-10-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingSplitWithCta onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 93: pricing-11-light */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">pricing-11-light</h2>
+            </div>
+
+            {/* The Component */}
+            <PricingSimpleList />
+          </div>
 
         </div>
       </div>
