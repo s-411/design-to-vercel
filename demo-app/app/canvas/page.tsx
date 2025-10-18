@@ -70,6 +70,18 @@ import { FaqSplitAccordionInfo } from '@/components/sections/canvas/faq-split-ac
 import { FaqTwoColumnGrouped } from '@/components/sections/canvas/faq-two-column-grouped'
 import { FaqSplitTextCta } from '@/components/sections/canvas/faq-split-text-cta'
 import { FaqGridCards } from '@/components/sections/canvas/faq-grid-cards'
+import { Counter1 } from '@/components/sections/counter-1'
+import { Counter2 } from '@/components/sections/counter-2'
+import { Counter3 } from '@/components/sections/counter-3'
+import { Counter4 } from '@/components/sections/counter-4'
+import { Counter5 } from '@/components/sections/counter-5'
+import { Counter6 } from '@/components/sections/counter-6'
+import { Counter7 } from '@/components/sections/counter-7'
+import { Counter8 } from '@/components/sections/counter-8'
+import { Counter9 } from '@/components/sections/counter-9'
+import { Counter10 } from '@/components/sections/counter-10'
+import { Counter11 } from '@/components/sections/counter-11'
+import { Counter12 } from '@/components/sections/counter-12'
 import { FooterLogoSocialCopyright } from '@/components/sections/canvas/footer-logo-social-copyright'
 import { FooterCopyrightLogoLinks } from '@/components/sections/canvas/footer-copyright-logo-links'
 import { FooterLogoCopyrightSocial } from '@/components/sections/canvas/footer-logo-copyright-social'
@@ -1283,7 +1295,163 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
           {/* Divider */}
           <div className="border-t border-border"></div>
 
-          {/* Demo 62: footer-1 */}
+          {/* Demo 71: counter-1 */}
+          <div id="number" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-1</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter1 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 72: counter-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-2</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter2 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 73: counter-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-3</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter3 onButtonClick={handleButtonClick} />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 74: counter-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-4</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter4 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 75: counter-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-5</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter5 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 76: counter-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-6</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter6 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 77: counter-7 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-7</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter7 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 78: counter-8 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-8</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter8 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 79: counter-9 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-9</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter9 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 80: counter-10 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-10</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter10 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 81: counter-11 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-11</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter11 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 82: counter-12 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">counter-12</h2>
+            </div>
+
+            {/* The Component */}
+            <Counter12 />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 83: footer-1 */}
           <div id="footers" className="scroll-mt-[5.5rem]">
             <div className="mb-6">
               <h2 className="text-2xl font-heading mb-2">footer-1</h2>
