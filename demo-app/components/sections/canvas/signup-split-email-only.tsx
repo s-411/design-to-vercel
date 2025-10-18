@@ -53,7 +53,7 @@ export function SignupSplitEmailOnly({
                 />
                 <button
                   type="submit"
-                  className="w-full lg:w-auto px-8 py-3 bg-primary text-primary-foreground font-semibold rounded hover:bg-primary/90 transition-colors whitespace-nowrap"
+                  className="btn-mm w-full lg:w-auto px-8 py-3 bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors whitespace-nowrap"
                 >
                   {buttonText}
                 </button>

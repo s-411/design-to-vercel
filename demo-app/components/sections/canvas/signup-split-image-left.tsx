@@ -68,7 +68,7 @@ export function SignupSplitImageLeft({
               />
               <button
                 type="submit"
-                className="w-full py-4 bg-primary text-primary-foreground font-semibold rounded hover:bg-primary/90 transition-colors"
+                className="btn-mm w-full py-4 bg-primary text-primary-foreground font-semibold hover:bg-primary/90 transition-colors"
               >
                 {buttonText}
               </button>
