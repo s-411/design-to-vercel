@@ -1295,6 +1295,123 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
           {/* Divider */}
           <div className="border-t border-border"></div>
 
+          {/* Demo 62: footer-1 */}
+          <div id="footers" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-1</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterLogoSocialCopyright />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 63: footer-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-2</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterCopyrightLogoLinks />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 64: footer-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-3</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterLogoCopyrightSocial />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 65: footer-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-4</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterSignupLinkColumns />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 66: footer-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-5</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterContactSignup />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 67: footer-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-6</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterLinksLogoSocial />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 68: footer-7 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-7</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterCtaLinks />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 69: footer-8 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-8</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterCtaPhoneCard />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 70: footer-9 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">footer-9</h2>
+            </div>
+
+            {/* The Component */}
+            <FooterEmailSignup />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
           {/* Demo 71: counter-1 */}
           <div id="number" className="scroll-mt-[5.5rem]">
             <div className="mb-6">
@@ -1446,123 +1563,6 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
 
             {/* The Component */}
             <Counter12 />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 83: footer-1 */}
-          <div id="footers" className="scroll-mt-[5.5rem]">
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-1</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterLogoSocialCopyright />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 63: footer-2 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-2</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterCopyrightLogoLinks />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 64: footer-3 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-3</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterLogoCopyrightSocial />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 65: footer-4 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-4</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterSignupLinkColumns />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 66: footer-5 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-5</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterContactSignup />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 67: footer-6 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-6</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterLinksLogoSocial />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 68: footer-7 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-7</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterCtaLinks />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 69: footer-8 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-8</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterCtaPhoneCard />
-          </div>
-
-          {/* Divider */}
-          <div className="border-t border-border"></div>
-
-          {/* Demo 70: footer-9 */}
-          <div>
-            <div className="mb-6">
-              <h2 className="text-2xl font-heading mb-2">footer-9</h2>
-            </div>
-
-            {/* The Component */}
-            <FooterEmailSignup />
           </div>
 
           {/*
