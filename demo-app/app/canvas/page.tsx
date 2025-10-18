@@ -60,6 +60,12 @@ import { SignupHorizontalForm } from '@/components/sections/canvas/signup-horizo
 import { SignupHorizontalWithImage } from '@/components/sections/canvas/signup-horizontal-with-image'
 import { SignupHorizontalMinimal } from '@/components/sections/canvas/signup-horizontal-minimal'
 import { SignupSplitEmailOnly } from '@/components/sections/canvas/signup-split-email-only'
+import { ContactSplitSocialForm } from '@/components/sections/canvas/contact-split-social-form'
+import { ContactSplitInfoCards } from '@/components/sections/canvas/contact-split-info-cards'
+import { ContactFormInfoSide } from '@/components/sections/canvas/contact-form-info-side'
+import { ContactCtaSocial } from '@/components/sections/canvas/contact-cta-social'
+import { ContactMapSplit } from '@/components/sections/canvas/contact-map-split'
+import { ContactInfoGridSignup } from '@/components/sections/canvas/contact-info-grid-signup'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -1129,6 +1135,84 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
 
             {/* The Component */}
             <SignupSplitEmailOnly />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 52: contact-1 */}
+          <div id="contact" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">contact-1</h2>
+            </div>
+
+            {/* The Component */}
+            <ContactSplitSocialForm />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 53: contact-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">contact-2</h2>
+            </div>
+
+            {/* The Component */}
+            <ContactSplitInfoCards />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 54: contact-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">contact-3</h2>
+            </div>
+
+            {/* The Component */}
+            <ContactFormInfoSide />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 55: contact-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">contact-4</h2>
+            </div>
+
+            {/* The Component */}
+            <ContactCtaSocial />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 56: contact-5 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">contact-5</h2>
+            </div>
+
+            {/* The Component */}
+            <ContactMapSplit />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 57: contact-6 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">contact-6</h2>
+            </div>
+
+            {/* The Component */}
+            <ContactInfoGridSignup />
           </div>
 
           {/*
