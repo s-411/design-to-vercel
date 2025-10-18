@@ -66,6 +66,10 @@ import { ContactFormInfoSide } from '@/components/sections/canvas/contact-form-i
 import { ContactCtaSocial } from '@/components/sections/canvas/contact-cta-social'
 import { ContactMapSplit } from '@/components/sections/canvas/contact-map-split'
 import { ContactInfoGridSignup } from '@/components/sections/canvas/contact-info-grid-signup'
+import { FaqSplitAccordionInfo } from '@/components/sections/canvas/faq-split-accordion-info'
+import { FaqTwoColumnGrouped } from '@/components/sections/canvas/faq-two-column-grouped'
+import { FaqSplitTextCta } from '@/components/sections/canvas/faq-split-text-cta'
+import { FaqGridCards } from '@/components/sections/canvas/faq-grid-cards'
 import { useToast } from '@/hooks/use-toast'
 
 export default function CanvasPage() {
@@ -1213,6 +1217,58 @@ Made, hall frequency, thoroughly, avoided fundamental; Movement twice with the a
 
             {/* The Component */}
             <ContactInfoGridSignup />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 58: faq-1 */}
+          <div id="faq" className="scroll-mt-[5.5rem]">
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">faq-1</h2>
+            </div>
+
+            {/* The Component */}
+            <FaqSplitAccordionInfo />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 59: faq-2 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">faq-2</h2>
+            </div>
+
+            {/* The Component */}
+            <FaqTwoColumnGrouped />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 60: faq-3 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">faq-3</h2>
+            </div>
+
+            {/* The Component */}
+            <FaqSplitTextCta />
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-border"></div>
+
+          {/* Demo 61: faq-4 */}
+          <div>
+            <div className="mb-6">
+              <h2 className="text-2xl font-heading mb-2">faq-4</h2>
+            </div>
+
+            {/* The Component */}
+            <FaqGridCards />
           </div>
 
           {/*

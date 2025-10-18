@@ -327,3 +327,13 @@ export { ContactMapSplit } from './canvas/contact-map-split'
 export type { ContactMapSplitProps } from './canvas/contact-map-split'
 export { ContactInfoGridSignup } from './canvas/contact-info-grid-signup'
 export type { ContactInfoGridSignupProps } from './canvas/contact-info-grid-signup'
+
+// FAQ Components
+export { FaqSplitAccordionInfo } from './canvas/faq-split-accordion-info'
+export type { FaqSplitAccordionInfoProps } from './canvas/faq-split-accordion-info'
+export { FaqTwoColumnGrouped } from './canvas/faq-two-column-grouped'
+export type { FaqTwoColumnGroupedProps } from './canvas/faq-two-column-grouped'
+export { FaqSplitTextCta } from './canvas/faq-split-text-cta'
+export type { FaqSplitTextCtaProps } from './canvas/faq-split-text-cta'
+export { FaqGridCards } from './canvas/faq-grid-cards'
+export type { FaqGridCardsProps } from './canvas/faq-grid-cards'
